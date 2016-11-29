@@ -1,0 +1,28 @@
+$navbar-default-bg: #1976D2;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar-nav a {
+  color: #fff!important;
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline!important;
+}
+
+.navbar-nav .dropdown li a {
+  color: #000!important;
+}
+
+#brand {
+	float: left;
+	color: #fff;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+.center {
+  text-align: center;
+}
