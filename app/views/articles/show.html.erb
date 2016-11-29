@@ -10,3 +10,4 @@
 
 <%= link_to 'Back', articles_path %>
 <%= link_to 'Edit this article', edit_article_path(@article) %>
+<%= link_to 'Delete', article_path(a), method: :delete, data: { confirm: "Are you shure?" } %>
