@@ -3,6 +3,10 @@ $navbar-default-bg: #1976D2;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.row {
+	width: 100%!important;
+}
+
 .navbar-nav a {
   color: #fff!important;
 }
