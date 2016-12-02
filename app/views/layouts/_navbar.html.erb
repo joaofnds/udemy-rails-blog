@@ -18,6 +18,7 @@
 			</ul>
       <ul class="nav navbar-nav navbar-right">
 				<% if logged_in? %>
+					<li><a style="pointer-events: none"><%= "Admin" if current_user.admin %></a></li>
 					<% if current_page?(user_path(current_user)) %>
 							<li><%= link_to "Edit profile", edit_user_path(current_user) %></li>
 					<% end %>

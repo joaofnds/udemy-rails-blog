@@ -3,6 +3,11 @@ $navbar-default-bg: #1976D2;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.btn {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
 .row {
 	width: 100%!important;
 }
@@ -80,4 +85,8 @@ footer ul {
 .user-card img {
 	float: left;
 	margin-right: 20px;
+}
+
+.admin-user-buttons {
+	padding: 15px 0px;
 }
