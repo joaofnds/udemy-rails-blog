@@ -8,6 +8,7 @@ gem 'sqlite3'
 gem 'will_paginate', '~> 3.1.0'
 gem 'bootstrap-will_paginate'
 gem 'bcrypt', '~> 3.1.7'
+gem 'rails-controller-testing'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
