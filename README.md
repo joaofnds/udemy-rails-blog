@@ -1,24 +1,3 @@
-# README
+![prompt] (https://i.snag.gy/r0jq3X.jpg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Alpha blog is a project developed during a udemy rails course, I gave it some tweaks, but it was mostly based on the code shown on the lessons.
