@@ -1,0 +1,14 @@
+<h1 align="center"><%= "Category " + @category.name %></h1>
+<% if !@category_articles.any? %>
+	<div class="well">
+		<h1 align="center">Oops! No articles written in this category yet!</h1>
+		<h2 align="center">Maybe you could write some! ;)</h2>
+	</div>
+<% end %>
+<div align="center">
+	<%= will_paginate @category_articles %>
+</div>
+<%= render 'articles/article', articles: @category_articles %>
+<div align="center">
+	<%= will_paginate @category_articles %>
+</div>

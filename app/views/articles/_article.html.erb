@@ -13,6 +13,9 @@
 							Created by: <%= link_to article.user.username, user_path(article.user) %>,
 							<%= time_ago_in_words(article.created_at) %> ago,
 							last updated: <%= time_ago_in_words(article.updated_at) %> ago
+							<% if article.categories.any? %>
+								<p>Categories: <%= render article.categories %></p>
+							<% end %>
 						</small>
 					</div>
 				</div>
